@@ -281,7 +281,6 @@ span{
 
 #contact-section{
     height: auto;
-    color: white;
 }
 
 #contact-section .container{
@@ -339,11 +338,11 @@ span{
     margin-top: 70px;
     text-align: center;
     margin-bottom: 10px;
-    color: white;
+
 }
 
 #contact-section #my-email a{
-    color: white;
+    color: black;
 }
 
 /* end of contact section style */
