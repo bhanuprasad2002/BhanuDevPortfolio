@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Portfolio" />
+    <meta name="keywords" content="Assignment 1" />
+    <meta name="author" content="David Anggawijaya" />
+    <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width:550px)">
+    <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:550px)">
+    <script src="Js/script.js" defer></script>
+    <title>Bhanu's Portfolio</title>
+</head>
+
+<body>
+    <!-- navbar menu -->
+    <header>
+        <nav id="animation-nav" class="navbar">
+            <div class="container">
+                <a href="home.html" class="logo">My<span>Portfolio</span></a>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+
+
+                    <li><a href="index.html#contact-section">Contact</a></li>
+                </ul>
+                <div class="nav-btn"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"
+                        alt="hamburger icon" /></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- about section -->
+        <section id="about-section">
+            <div class="container">
+                <h1 class="section-title">About <span>Me</span></h1>
+                <div class="section-content">
+                    <ul>
+                        <li>Name: <span>Karanam Bhanu Prasad Naidu</span></li>
+                        <li>Age: <span>20 Years Old</span></li>
+                        <li>Gender: <span>Male</span></li>
+                        <li>Birthdate: <span>13 Oct 2002</span></li>
+                        <li>Birthdate: <span>Visakhapatnam , India</span></li>
+                        <!-- <li>Education: <span>Bachelor of ICT</span></li> -->
+                    </ul>
+                    <img id="image-1" src="images/me.png" alt="self picture">
+                    <!-- <img id="image-2" src="images/profile-picture.png" alt="profile picture"> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about-section">
+            <div class="container">
+                <h1 class="section-title"><span>Education </span></h1>
+                <div class="section-content">
+                    <ul>
+                        <li>College: <span>GITAM University</span></li>
+                        <li>Degree: <span>Bachelor of Technology(B Tech)</span></li>
+                        <li>Stream: <span>Computer Science(CSE)</span></li>
+                        <li>Location: <span>Visakhapatnam , India</span></li>
+                        <li>Duration: <span>2020-2024</span></li>
+                        <!-- <li>Education: <span>Bachelor of ICT</span></li> -->
+                    </ul>
+                    <img id="image-1" src="images/edu.png" alt="self picture">
+                    <!-- <img id="image-2" src="images/profile-picture.png" alt="profile picture"> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- hometown section -->
+
+        <section id="hometown-section">
+
+            <div class="container">
+                <h1 class="section-title"><span>My</span> Hometown</h1>
+            </div>
+
+            <!-- Slider Animation -->
+
+            <div id="slider">
+
+                <input type="radio" name="slide" id="slider1" checked>
+                <input type="radio" name="slide" id="slider2">
+                <!-- <input type="radio" name="slide" id="slider3"> -->
+
+                <div id="arrow-control">
+                    <label id="prev_slide" for="slider1"><img src="images/right-arrow.png"
+                            alt="previous button"></label>
+                    <label id="next_slide" for="slider2"><img src="images/right-arrow.png" alt="next button"></label>
+                </div>
+
+
+
+                <div id="slides-container">
+                    <div id="slide1">
+                        <div class="slide-content">
+                            <img src="images/Hometown.JPG" alt="Picture with friends">
+                            <div>
+                                I hail from Vizag, and I have been residing here since my intermediate studies up to my
+                                B.Tech degree. It's been a fulfilling journey of learning and growth in my hometown.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slide2">
+                        <div class="slide-content">
+                            <img src="images/rajam.png" alt="Picture with friends">
+                            <div>
+                                I come from Rajam, and my father runs a business there. It's a place close to my heart
+                                and holds many cherished memories of my upbringing.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="slide3">
+                        <div class="slide-content">
+                            <img src="images/Hometown5.jpg" alt="Picture with friends">
+                            <div>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Harum velit impedit aspernatur minima laborum animi iste!
+                                At dicta deleniti nam eveniet ipsam qui maiores nisi,
+                                repudiandae sint error adipisci saepe!
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                    <div id="bullet-nav">
+                        <label for="slider1"></label>
+                        <label for="slider2"></label>
+                        <!-- <label for="slider3"></label> -->
+                    </div>
+
+                </div>
+        </section>
+
+
+        <!-- List of my favorite books -->
+        <section id="mytaste-section">
+            <div class="container">
+                <h1 class="section-title"><span>My</span> My Hobbies</h1>
+                <br><br>
+
+                <!-- Image Card Animation -->
+                <div class="section-content">
+                    <div class="card">
+                        <img src="images/music.png" alt="Intelligent Investor Book">
+                        <div class="card-content">
+                            <div class="card-title">Listening Music</div>
+                            <div class="card-desc">Listening to music is my favorite hobby, bringing joy and relaxation
+                                to my life through beautiful melodies and meaningful lyrics.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/game.png" alt="Smart Traders Not Gamblers Book">
+                        <div class="card-content">
+                            <div class="card-title">Gaming</div>
+                            <div class="card-desc">Gaming on both PC and mobile is one of my passions, immersing me in
+                                exciting virtual worlds and challenging my strategic thinking.</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/tech.png" alt="Bandarmology Book">
+                        <div class="card-content">
+                            <div class="card-title">Exploring new Techs</div>
+                            <div class="card-desc">My hobby is exploring new technologies
+                                constantly seeking to stay updated with the latest innovations.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
